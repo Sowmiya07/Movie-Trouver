@@ -1,0 +1,14 @@
+body {
+  min-height: 100vh;
+	box-sizing: border-box;
+  border: 10px solid #00FF33;
+  background-color: #212121;
+}
+
+.heading {
+  text-align: left;
+  font-family: 'Cinzel', cursive;
+  font-size: 45px;
+  color: #00FF33;
+  margin-left: 25px;
+}
