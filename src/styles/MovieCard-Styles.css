@@ -4,7 +4,7 @@
     margin-right: 15px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .movie-card:nth-of-type(7n) {
@@ -21,8 +21,10 @@
     height: 30%;
     display: block;
     font-size: 22px;
-    color:#00FF33;
-    font-family: Vidaloka, sans-serif;
-    text-transform: uppercase;
+    color: #00FF33;
+    font-family: "PT Sans", sans-serif;
     padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }

@@ -4,7 +4,7 @@ import '../styles/MovieCard-Styles.css';
 const MovieCard = (props) => {
     return (
         <div className="movie-card">
-            <img className="movie-poster" src={`https://image.tmdb.org/t/p/original/${props.movie.poster_path}`} alt="" />
+            <img className="movie-poster" src="https://image.tmdb.org/t/p/original//2NljKDHFCjBATferrMmvWmrWMtj.jpg" alt="" />
             <span className="movie-title">{props.movie.title}</span>
         </div>
     )
