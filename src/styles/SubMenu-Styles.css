@@ -1,0 +1,30 @@
+.sub-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #212121;  
+}
+
+.sub-menu li {
+    width: 200px;
+    background-color: #212121;
+    border: none;
+    color: #00FF33;
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.ext-btn {
+    position: relative;
+    width: 25%;
+    color: #00FF33;
+    background-color: #212121;
+    border: none;
+    font-size: 25px;
+}
+
+.ext-btn:focus {
+    outline: none;
+}

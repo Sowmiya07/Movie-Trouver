@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import '../styles/HomePage-Styles.css';
 import MovieContainer from './/MovieContainer';
 import movieJson from '../data/data'
+import SubMenu from './SubMenu';
+
+const sortSubMenu = ["Year", "Ratings", "Popularity"]
+const filetrSubMenu = ["Filter 1", "Filter 2", "Filter 3"]
 
 class HomePage extends Component {
 
@@ -41,8 +45,8 @@ class HomePage extends Component {
                         <button className="fa fa-search btn-search search-element" onClick={this.handleClick}></button>
                     </div>
                     <div className="btn-group">
-                        <button className="btn btn-filter"><i className=" fas fa-filter"></i></button>
-                        <button className="btn btn-sort"><i className="fas fa-sort-amount-up-alt"></i></button>
+                        <SubMenu btnIcon="fa-filter" menuItems={filetrSubMenu} />
+                        <SubMenu btnIcon="fa-sort-amount-up-alt" menuItems={sortSubMenu} />
                         <button className="btn btn-fav"><i className="fas fa-heart"></i></button>
                     </div>
                 </header>
