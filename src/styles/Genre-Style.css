@@ -1,0 +1,44 @@
+.genreContainer {
+    padding: 2rem 1.5rem;
+    background-color: #26292c;
+}
+
+.genericInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.genericInfo h2 {
+    color: #ffffff;
+}
+
+.genericInfo a {
+    color:  #3298DA;
+    text-decoration: none;
+    padding: 0.3rem 0;
+}
+
+.genericInfo a:hover {
+    border-bottom: 1px solid #3298DA;
+}
+
+.genreList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: calc((100% - 1.5rem) / 2 );
+    height: 150px;
+    color: #FFF;
+    border: 1px solid black;
+    margin-bottom: 1.5rem;
+}
+
+.genre:nth-child(odd) {
+    margin-right: 1.5rem;
+}

@@ -1,0 +1,48 @@
+.collectionsContainer {
+    padding: 2rem 1.5rem;
+}
+
+.genericCollectionsInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.genericCollectionsInfo h2 {
+    color: #ffffff;
+}
+
+.genericCollectionsInfo a {
+    color:  #3298DA;
+    text-decoration: none;
+    padding: 0.3rem 0;
+}
+
+.genericCollectionsInfo a:hover {
+    border-bottom: 1px solid #3298DA;
+}
+
+.collections {
+    display: flex;
+    overflow-x: auto;
+}
+
+.collections::-webkit-scrollbar {
+    display: none;
+}
+
+.collectionItem {
+    margin-right: 1.5rem;
+}
+
+.collectionItem img {
+    height: 250px;
+    width: 180px;
+}
+
+.collectionItem span {
+    color: #BBB;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}

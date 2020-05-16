@@ -19,20 +19,20 @@ class HomePage extends Component {
         this.handleChange = this.handleChange.bind(this)
     }
 
-    // componentDidMount() {
-    //     fetch('https://api.themoviedb.org/3/trending/all/week?api_key=41ee8f0fb93c516e6538a5ff5331f3eb')
-    //         .then(jsonData => jsonData.json())
-    //         .then(parsedData => this.setState({movieArray: parsedData.results}))
-    // }
+    componentDidMount() {
+        // fetch('https://api.themoviedb.org/3/trending/all/week?api_key=41ee8f0fb93c516e6538a5ff5331f3eb')
+        //     .then(jsonData => jsonData.json())
+        //     .then(parsedData => this.setState({movieArray: parsedData.results}))
+    }
 
     handleChange(event) {
         this.setState({searchInput: event.target.value})
     }
 
     handleClick(event) {
-        // fetch('https://api.themoviedb.org/3/search/movie?api_key=41ee8f0fb93c516e6538a5ff5331f3eb&language=en-US&query='+this.state.searchInput+'&page=1')
-        //     .then(jsonResponse => jsonResponse.json())
-        //     .then(parsedResponse => this.setState({movieArray: parsedResponse.results}))
+        fetch('https://api.themoviedb.org/3/search/movie?api_key=41ee8f0fb93c516e6538a5ff5331f3eb&language=en-US&query='+this.state.searchInput+'&page=1')
+            .then(jsonResponse => jsonResponse.json())
+            .then(parsedResponse => this.setState({movieArray: parsedResponse.results}))
     }
 
     render() {

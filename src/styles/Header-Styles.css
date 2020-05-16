@@ -1,0 +1,27 @@
+.navbar {
+    padding: 0.5rem;
+    background-color: #26292c;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    color: #3298DA;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.search {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.5rem;
+    color: #6f757a;
+    background-color: inherit;
+    font-size: 1.5rem;
+    padding: 1rem;
+    outline: 0;
+}
+
+.search:hover, .search:focus {
+    color: #3298DA;
+}

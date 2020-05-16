@@ -1,0 +1,39 @@
+.slideshowContainer {
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moviePoster {
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+}
+
+.movieName {
+    margin-bottom: 0.75rem;
+    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    color: #FFF;  
+}
+
+.buyNow {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #3298DA;
+    letter-spacing: 1.2px;
+}
+
+.opaqueBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+    width: 100%;
+}
