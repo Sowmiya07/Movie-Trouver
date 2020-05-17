@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactComponent from '../data/poster.jpg';
 import '../styles/Collections-Styles.css';
 
 const Collections = ({heading, movieList}) => {
@@ -13,7 +12,7 @@ const Collections = ({heading, movieList}) => {
             {
                 movieList.map( movie => (
                     <div className="collectionItem">
-                        <img src={ReactComponent} />
+                        <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} />
                         <span>{movie.title}</span>
                     </div>
                 ))
