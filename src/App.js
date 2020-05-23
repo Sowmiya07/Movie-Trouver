@@ -33,7 +33,8 @@ class App extends React.Component {
         <div className="vibgyor"></div>
         <Header />
         <Slideshow title={MOVIE_DATA[this.state.currentIndex].title} 
-          url={MOVIE_DATA[this.state.currentIndex].poster_path} />
+          url={MOVIE_DATA[this.state.currentIndex].poster_path} 
+          story={MOVIE_DATA[this.state.currentIndex].overview} />
         <Collections heading="New Movies" movieList={MOVIE_DATA}/>
         <Genres heading="Genres" />
         <Collections heading="Best of Action Sports" movieList={MOVIE_DATA} />
